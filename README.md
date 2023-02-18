@@ -4,11 +4,11 @@ A simple tool to create and maintain Arch PKGBUILDS for R modules
 ## Usage
 
 | flag           | use-case                                                                   | default      |
-| _________      | _________                                                                  | ________     |
+| -----------    | -----------                                                                | --------     |
 | `-u`           | check for updates                                                          | false/unset  |
-| `-c <PKGNAME>` | create a pkgbuild for a new package. `<PKGNAME>` should be as seen on CRAN |              |
+| `-c <PKGNAME>` | create a pkgbuild for a new package. `<PKGNAME>` should be as seen on CRAN | None         |
 | `-p <file>`    | file which lists all CRAN packages which should be maintained              | `./packages` |
-| `-d <folder>   | folder where PKGBUILD folders should be stored                             | `~/src/AUR`  |
+| `-d <folder>`   | folder where PKGBUILD folders should be stored                            | `~/src/AUR`  |
 
 
 ## TODO
